@@ -1,1 +1,144 @@
+body{
+	font-size: 16px;
+	font-family: Utopia;
+	background-color: rgb(37,35,36) !important;
+	margin: 0;
+}
+@media(min-width: 950px){
+    
+}
+@media(max-width: 949px) and (min-width: 601px){
+	
+}
+@media(max-width: 600px){
+	
+}
 
+#header-nav{
+	background-color: rgb(37, 35, 36);
+	border-radius: 0;
+	border: 0;
+}
+#logo-img{
+	background: url("GreekTempleLogo.png") no-repeat;
+	width: 150px;
+	height: 104px;
+	margin: 10px;
+}
+.navbar-brand h1{
+     color: white;
+     text-shadow: 2px 4px rgb(0, 0, 0);
+     font-size: 3em;
+     margin-left: 10px;
+}
+.navbar-brand a:focus, .navbar-brand a:hover{
+	text-decoration: none;
+}
+#nav-list{
+	padding: 20px;
+	margin-top: 10px;
+}
+#nav-list a{
+	text-align: center;
+}
+.navbar-header button.navbar-toggle{
+	clear: both;
+	margin-top: -30px;
+}
+
+@media(max-width: 767px){
+	.navbar-brand{
+		padding-top: 10px;
+		height: 80px;
+	}
+	.navbar-brand h1{	
+		font-size: 5vw;
+		margin-top: 0;
+	}
+}
+@media(min-width: 1200px){
+	.jumbotron{
+		background: url("DMA_1200_500.png");
+		height: 500px;
+		box-shadow: 0 0 50px rgb(0, 0, 0);
+		
+	}
+}
+@media(min-width: 992px) and (max-width: 1199px){
+	.jumbotron{
+		background: url("DMA_992.png");
+		height: 458px;
+		box-shadow: 0 0 50px rgb(0, 0, 0);
+		
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.jumbotron{
+		background: url("DMA_768.png");
+		height: 380px;
+		box-shadow: 0 0 50px rgb(0, 0, 0);
+		
+	}
+}
+.container .jumbotron{
+	margin: 0;
+	padding: 0 !important;
+	border: 1px solid white;
+	box-shadow: 0 0 25px rgb(0, 0, 0);
+}
+
+#cat-tile, #suggested-tile, #map-tile {
+	height: 245px;
+	width: 100%;
+	margin-bottom: 15px;
+	position: relative;
+	border: 1px solid white;
+	overflow: hidden;
+	margin-top: 10px;
+}
+#cat-tile:hover, #suggested-tile:hover, #map-tile:hover {
+	box-shadow: 0 1px 5px 1px #cccccc ;
+}
+#cat-tile{
+	background: url("Lazio.png") no-repeat;
+	background-position: center;
+}
+#suggested-tile{
+	background: url("chelmonski.png") no-repeat;
+	background-position: center;	
+}
+#cat-tile span, #suggested-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .6;
+}
+
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color: rgb(37,35,36) !important;
+  border-top: 0;
+  color: white !important;
+}
+
+#quote1, #quote2, #quote3 {
+  font-style: italic;
+}
+
+.panel-footer section {
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+.panel-footer section hr {
+    width: 80%;
+  }
